@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body{
+            color: white;
+            /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+            font-size: 16px;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .logo-nav-div {
+            width: 100%;
+            min-height: 100px;
+            background-color: black;
+            /* margin-bottom: 10px; */
+        }
+        .logo-img {
+            /* background-color: aquamarine; */
+            width: 40%;
+            float: left;
+            min-height: 100px;
+        }
+        .logo-image{
+            width: 30%;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        .nav {
+            /* background-color: rgb(96, 177, 46); */
+            width: 60%;
+            min-height: 100px;
+            float: right;
+            align-content: center;
+        }
+        a{
+            margin: 15px;
+            color: white;
+            font-size: larger;
+        }
+        .croser{
+            width: 100%;
+            min-height: 500px;
+            background-color: rgb(3, 3, 3);
+            /* margin-bottom: 10px; */
+        }
+        .brands{
+            width: 100%;
+            min-height: 600px;
+            background-color: rgb(8, 8, 8);
+            /* margin-bottom: 10px; */
+            text-align: center;
+            
+        }
+        .box{
+            float: left;
+            margin: 40px;
+            
+            margin-left: 60px;
+        }
+        .box-img{
+            background-color: aliceblue;
+        }
+        
+        
+        .rast-franchise{
+            width: 100%;
+            min-height: 1500px;
+            background-color: rgb(29, 28, 26);
+            /* margin-bottom: 10px; */
+            text-align: center;
+        }
+        .rast-01 {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            
+            min-height: 100px;
+            
+        }
+        .rast01-text{
+            width: 50%;
+            min-height: 100px;
+        }
+        .rast01-img{
+            width: 50%;
+            min-height: 100px;
+        }
+        .rast01-text, .rast01-img {
+            float: left;
+        }
+        .rast-02 {
+            width: 80%;
+            margin: auto;
+            min-height: 100px;
+        }
+        .rast02-text{
+            width: 50%;
+            min-height: 100px;
+        }
+        .rast02-img{
+            width: 50%;
+            min-height: 100px;
+        }
+        .rast02-text, .rast02-img {
+            float: left;
+        }
+
+        .rast-03 {
+            width: 80%;
+            margin: auto;
+            min-height: 100px;
+        }
+        .rast03-text{
+            width: 50%;
+            min-height: 100px;
+        }
+        .rast03-img{
+            width: 50%;
+            min-height: 100px;
+        }
+        .rast03-text, .rast03-img {
+            float: left;
+        }
+
+        .express-franchise {
+            width: 100%;
+            min-height: 900px;
+            background-color: rgb(10, 10, 8);
+            /* margin-bottom: 10px; */
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .container{
+            margin: auto;
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .child{
+            width: 30%;
+            min-height: 500px;
+            /* background-color: rgb(165, 54, 54) */
+
+        }
+
+
+
+
+        .village-franchise{
+            width: 100%;
+            min-height: 700px;
+            background-color: rgb(2, 2, 2);
+            /* margin-bottom: 10px; */
+            text-align: center;
+            padding-top: 20px;
+        }
+        .village-franchise-box{
+            margin: auto;
+            width: 90%;
+            min-height: 500px;
+            display: flex;
+            justify-content: center;
+        }
+        .village-franchise-text{
+            width: 50%;
+            min-height: 500px;
+            /* background-color: yellow; */
+        }
+        .village-franchise-img{
+            width: 50%;
+            min-height: 50px;
+            /* background-color: yellowgreen; */
+        }
+
+
+
+        .opening-soon{
+            padding-top: 30px;
+            width: 100%;
+            min-height: 1200px;
+            background-color: rgb(0, 0, 0);
+            /* margin-bottom: 10px; */
+            text-align: center;
+        }
+        .container-open{
+            margin: auto;
+            width: 75%;
+            min-height: 1000px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+
+        }
+        .child-open{
+            width: 30%;
+            max-height: 300px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            
+        }
+
+
+
+        .social {
+            width: 100%;
+            min-height: 100px;
+            max-height: 500px;
+            background-color: rgb(32, 28, 21);
+            /* margin-bottom: 10px; */
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .social-box{
+            margin: auto;
+            width: 90%;
+            min-height: 100px;
+            
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .footer{
+            width: 100%;
+            min-height: 700px;
+            background-color: rgb(0, 0, 0);
+            margin-bottom: 10px;
+        }
+        .footer-box{
+            padding-top: 50px;
+            padding-left: 30px;
+            margin: auto;
+            width: 100%;
+            min-height: 300px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .footer-child{
+            min-height: 300px;
+            width: 20%;
+            /* background-color: aquamarine; */
+            
+
+        }
+
+
+
+
+
+    </style> -->
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo-nav-div">
+            <div class="logo-img"><img class="logo-image" src="../salt-and-papper/assets/logo-image/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt=""></div>
+            <div class="nav">
+                 <a href="./index.html">Home</a>
+                 <a href="./about.html">About us</a>
+                 <a href="./publications.html">Publications</a>
+                 <a href="./feedback.html">Feedback</a>
+                 <a href="">Get a Franchise</a>
+                 <a href="">order online</a>
+            </div>
+        </div>
+        <div class="croser">
+            <img width="100%" src="../salt-and-papper/assets/crose images/01.webp" alt="">
+        </div>
+        <div class="brands">
+            <br><br><br>
+            <h1>Welcome to Salt'n Pepper <br>
+                Restaurants! Our Brands</h1>
+                <p>Please click our brands below for further information, reservations or to order online!</p>
+                <br>
+                <div class="brand-figure">
+                <div class="box"><figure><img class="box-img" src="../salt-and-papper/assets/brands/01.webp" alt=""> <br><br>
+                <figcaption>ORDER ONLINE</figcaption>
+                </figure></div>
+                <div class="box"><figure><img class="box-img" src="../salt-and-papper/assets/brands/02.webp" alt=""> <br><br>
+                    <figcaption>ORDER ONLINE</figcaption>
+                    </figure></div>
+                <div class="box"><figure><img class="box-img" src="../salt-and-papper/assets/brands/03.webp" alt=""> <br><br>
+                        <figcaption>ORDER ONLINE</figcaption>
+                        </figure></div> </div>   
+
+        </div>
+        <div class="rast-franchise">
+            <br><br><br><br>
+            <h1>Salt'n Pepper <br>
+                Restaurant Franchises</h1>
+                <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</p>
+                <br><br><br>
+                <div class="rast-01">
+                    <div class="rast01-text"><h3><br><br><br><br>ISLAMABAD</h3>
+                    <h1>Salt'n Pepper Restaurant</h1>
+                    <address> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</address>
+                    <a href="">PH:051-2604904-6</a>
+                    </div>
+                    <div class="rast01-img"><img src="../salt-and-papper/assets/rast-img/01.webp" alt=""></div>
+                </div>
+                <div class="rast-02">
+                    <div class="rast02-text">
+                        <h3><br><br><br>FAISLABAD</h3>
+                        <h1>Salt'n Pepper Restaurant</h1>
+                        <address>4-Kohinoor City, Faisalabad</address>
+                        <a href="">PH: 041-8711404</a>
+                    </div>
+                    <div class="rast02-img"><img src="../salt-and-papper/assets/rast-img/02.webp" alt=""></div>
+                    
+                </div>
+                    
+                <div class="rast-03">
+                    <div class="rast03-text">
+                        <h3><br><br><br><br><br> BAHAWALPUR</h3>
+                        <h1>Salt'n Pepper Restaurant</h1>
+                        <address>D.C Chowk, opposite Commissioner House, Bahawalpur</address>
+                        <a href="">PH: 062-2740271-2</a>
+                    </div>
+                    <div class="rast03-img"><img src="../salt-and-papper/assets/rast-img/03.webp" alt=""></div>
+                </div>
+
+        </div>
+        <div class="express-franchise">
+            <h1>Salt'n Pepper <br>
+                Express Franchises</h1>
+                <div class="container">
+                    <div class="child">
+                        <img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/01.webp" alt="">
+                        <p>EMPORIUM MALL  <br>
+                            Salt'n Pepper Express  <br>
+                             2nd Floor, Food Court Emporium Mall  <br>
+                             <br>
+                            Ph: 0311-1100947</p>
+                    </div>
+
+                    <div class="child">
+                        <img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/02.webp" alt="">
+                        <p>GUJRANWALA  <br>
+                            Salt'n Pepper Express  <br>
+                             Sixteenth Avenue Mall  <br>
+                             <br>
+                            Ph: 0300 6024000</p>
+                    </div>
+
+                    <div class="child">
+                        <img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/03.webp" alt="">
+                        <p>SARGODHA  <br>
+                            Salt'n Pepper Express  <br>
+                             Opposite Sargodha Arts Council Babar Road  <br>
+                             <br>
+                            Ph: (048) 3725500</p>
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/04.webp" alt="">
+                    <p>JHELUM  <br>
+                        Salt'n Pepper Express  <br>
+                         Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum,  <br>
+                         <br>
+                        Ph: 0307 7675555</p>
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/05.webp" alt="">
+                    <p>FAISAL TOWN  <br>
+                        Salt'n Pepper Express  <br>
+                         34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore  <br>
+                         <br>
+                        Ph: 042-111-100-678</p>
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/06.webp" alt="">
+                    <p>DHA  <br>
+                        Salt'n Pepper Express  <br>
+                         93-Y Phase III, DHA,Lahore  <br>
+                         <br>
+                        Ph: 042-111-100-678</p>
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/07.webp" alt="">
+                    <p>BAHRIA TOWN  <br>
+                        Salt'n Pepper Express  <br>
+                         Arwa Heights Building 19 Nishtar Block, Sector E, Bahria Town Lahore  <br>
+                         <br>
+                        Ph: 042-111-100-678</p>
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/08.webp" alt="">
+                    <p>GUJAR KHAN  <br>
+                        Salt'n Pepper Express  <br>
+                         New Metro City Gujar Khan  <br>
+                         <br>
+                        Ph: 032-111-14-962</p>  
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/09.webp" alt="">
+                    <p>LAHORE  <br>
+                        Salt'n Pepper Express  <br>
+                         Shop no.5, Arcade Block, Fortress Stadium, Lahore  <br>
+                         <br>
+                        Ph: 04236623100</p>
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/10.webp" alt="">
+                    <p>GUJRAT  <br>
+                        Salt'n Pepper Express  <br>
+                         Service Mor, Gujrat  <br>  
+                         <br>
+                        Ph: 0311-1124600  <br>
+                        
+                        </p>
+                    </div>
+
+                    <div class="child"><img width="320px" height="280px" src="../salt-and-papper/assets/express franchises/12.webp" alt="">
+                    <p>SAHIWAL  <br>
+                        Salt'n Pepper Express  <br>
+                         Opposite Main Gate Police Line, Sahiwal  <br>
+                         <br>
+                        Ph: 040-4515485</p>
+                    </div>
+                </div>
+        </div>
+        <div class="village-franchise">
+            <h1>Salt'n Pepper <br>
+                Village Franchise</h1> <br><br><br>
+                <div class="village-franchise-box">
+                    <div class="village-franchise-img"><img width="600px" src="../salt-and-papper/assets/village/01.webp" alt=""></div>
+                    <div class="village-franchise-text">
+                        <h1>GUJRANWALA  <br>
+                            Salt'n Pepper Village   <br>
+                             <address> Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt </address> <br>
+                            
+                             Ph: 055-3884500 l ,055-3880400</h1>
+                    </div>
+                </div>
+        </div>
+        <div class="opening-soon">
+             <h1>Salt'n Pepper  <br>
+                Express Franchises (Opening Soon)</h1>
+                <div class="container-open">
+                    <div class="child-open"><br><br><br>
+                        <img src="../salt-and-papper/assets/location/01.webp" alt=""> <br><br><br>
+                        
+                        OPENING SOON  <br>
+                        Salt'n Pepper <br>
+                        Express <br>
+                        Al-Jalil Garden <br>
+                        
+                        Sadhoke</div>
+                    <div class="child-open"><br><br><br>
+                        <img src="../salt-and-papper/assets/location/01.webp" alt=""> <br><br><br>
+                        
+                        
+                        OPENING SOON  <br>
+                        Salt'n Pepper <br>
+                        Express <br>
+                        Al-Jalil Garden <br>
+                        
+                        Sheikhupura</div>
+                    <div class="child-open"><br><br><br>
+                        <img src="../salt-and-papper/assets/location/01.webp" alt=""> <br><br><br>
+                        
+                        
+                        OPENING SOON  <br>
+                        Salt'n Pepper <br>
+                        Express <br>
+                        Blue World City <br>
+                        
+                        Rawalpindi</div>
+                    <div class="child-open"><br><br><br>
+                        <img src="../salt-and-papper/assets/location/01.webp" alt=""> <br><br><br>
+                        
+                        
+                        OPENING SOON <br>
+                        Salt'n Pepper <br>
+                        Express <br>
+                        City Housing <br>
+                        
+                        Gujranwala</div>
+                    <div class="child-open"><br><br><br>
+                        <img src="../salt-and-papper/assets/location/01.webp" alt=""> <br><br><br>
+                        
+                        
+                        OPENING SOON  <br>
+                        Salt'n Pepper <br>
+                        Express <br>
+                        City Housing  <br>
+                        
+                        Sialkot</div>
+                    <div class="child-open"><br><br><br>
+                        <img src="../salt-and-papper/assets/location/01.webp" alt=""> <br><br><br>
+                        
+                        
+                        OPENING SOON  <br>
+                        Salt'n Pepper <br>
+                        Express <br>
+                        Al-Jalil Garden  <br>
+                        
+                        Sharqpur</div>
+                    <div class="child-open"><br><br><br>
+                        <img src="../salt-and-papper/assets/location/01.webp" alt=""> <br><br><br>
+                        
+                        
+                        OPENING SOON  <br>
+                        Salt'n Pepper  <br>
+                        Express <br>
+                        Burewala</div>
+                </div>
+        </div>
+        <div class="social">
+            <h1>Social Feed</h1><br><br>
+            <div class="social-box">
+                <div class="social-img"><img width="250px" src="../salt-and-papper/assets/social feed/01.webp" alt=""></div>
+                <div class="social-img"><img width="250px" src="../salt-and-papper/assets/social feed/02.webp" alt=""></div>
+                <div class="social-img"><img width="250px" src="../salt-and-papper/assets/social feed/03.webp" alt=""></div>
+                <div class="social-img"><img width="250px" src="../salt-and-papper/assets/social feed/04.webp" alt=""></div>
+                <div class="social-img"><img width="250px" src="../salt-and-papper/assets/social feed/05.webp" alt=""></div>
+            </div>
+            
+        </div>
+        <div class="footer">
+            <div class="footer-box">
+                <div class="footer-child">
+                    <br><br><br><br>
+                    <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p> <br><br>
+                    <p>Term & Condition  Privacy Policy</p>
+
+                </div>
+                <div class="footer-child">
+                    <h4>SITE LINKS</h4>
+                    <p><a href="">home</a></p>
+                    <p><a href="">about us</a></p>
+                    <p><a href="">publication</a></p>
+                    <p><a href="">get a franchise</a></p>
+                    <p><a href="">feedback</a></p>
+
+
+                </div>
+                <div class="footer-child"> 
+                    <h4>CONTACT US</h4>
+                    <p>Head office Address  <br><br>
+                        23-Usman Block, New GardenTown, Lahore, Pakistan <br><br>
+                        Head office number  <br><br>
+                        +92 42 358 509 31   <br><br>
+                        +92 42 358 509 30   <br><br>
+                        Email Address    <br><br>
+                        snpfood@brain.net.pk   <br><br>
+                        Free delivery number  <br><br>
+                        +92 42 111 100 678  <br><br>
+                        +92 03 111 444 610</p>
+                </div>
+                <div class="footer-child">
+                    <h4>Follow Us</h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
